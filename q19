@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main (){
+   float a,b,c;
+    printf("enter a ,b ,c: ");
+    scanf("%f %f %f", &a, &b, &c);
+if (a == b && b == c && c == a)
+    printf("equilateral triangle");
+else if (a == b || b == c || a == c)
+    printf("isosceles triangle");
+else
+    printf("scalene triangle");
+return 0;
+}
+
+enter a ,b ,c: 2 3 4
+scalene triangle
